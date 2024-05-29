@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE EDITOR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <section class="container">
+            <h1><a href="coverpage.html" >Code Editor </h1></a> 
+         
+        <div class="Editor">
+            <div class="left">
+                <label>HTML</label>
+                    <textarea onkeyup="run()" spellcheck="false" id="html-code"></textarea>
+
+                <label>CSS</label>
+                    <textarea onkeyup="run()" spellcheck="false" id="css-code"></textarea>
+
+                <label>JS</label>
+                    <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
+
+                </div>
+
+            <div class="right">
+                <label>Output</label>
+                <iframe id="output"></iframe> 
+                
+            </div>
+        </div> 
+    </section>
+
+
+
+   
+</body>
+</html>

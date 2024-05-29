@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(54, 65, 63);
+    color: rgb(138, 157, 175);
+    
+     
+}
+
+.head{
+    
+    text-align: center;
+    padding: 100px;
+    
+}
+.second{
+    text-align: center;
+    
+}
